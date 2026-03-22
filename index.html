@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCBC Technician Tools and Learning System</title>
+  <meta name="description" content="Beginner-friendly technician tools, guided troubleshooting, and privacy-first learning resources.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">BCBC Technician Tools and Learning System</p>
+      <h1>Beginner-friendly technician tools you can actually use</h1>
+      <p class="lead">
+        This starter project combines practical Linux diagnostics, log capture, and a clear path toward a larger
+        bootable USB SSD learning platform.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#tools">View Tools</a>
+        <a class="button secondary" href="#getting-started">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section wrap" id="mission">
+      <div class="section-heading">
+        <h2>What this project is</h2>
+        <p>A real first GitHub project and the foundation for your future USB SSD interface.</p>
+      </div>
+      <div class="grid two-up">
+        <article class="card">
+          <h3>GitHub starter project</h3>
+          <p>
+            This repository gives you a clean first project with an actual working script, documentation,
+            and a public-facing GitHub Pages site.
+          </p>
+        </article>
+        <article class="card">
+          <h3>USB SSD building block</h3>
+          <p>
+            The same tool can later be surfaced in a launcher or web menu for your technician-first bootable USB SSD.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="tools">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2>Current and planned tools</h2>
+          <p>Start simple, then keep adding modules as the system grows.</p>
+        </div>
+        <div class="grid cards">
+          <article class="card feature featured">
+            <span class="tag live">Live now</span>
+            <h3>Log Capture</h3>
+            <p>
+              Collects core system information, storage details, memory and process snapshots,
+              recent logs, networking details, and Tailscale status when available.
+            </p>
+            <ul>
+              <li>Linux-friendly</li>
+              <li>Creates timestamped reports</li>
+              <li>Good first diagnostic baseline</li>
+            </ul>
+            <pre><code>chmod +x scripts/log_capture.sh
+./scripts/log_capture.sh</code></pre>
+          </article>
+
+          <article class="card feature">
+            <span class="tag soon">Coming next</span>
+            <h3>Storage Checker</h3>
+            <p>
+              Planned module for drive usage review, filesystem visibility, and simple health checks.
+            </p>
+          </article>
+
+          <article class="card feature">
+            <span class="tag soon">Coming next</span>
+            <h3>Network Diagnostics</h3>
+            <p>
+              Planned module for connection checks, route visibility, service reachability, and guided troubleshooting.
+            </p>
+          </article>
+
+          <article class="card feature">
+            <span class="tag soon">Future vision</span>
+            <h3>USB SSD Launcher</h3>
+            <p>
+              A simple beginner-safe menu that connects tools, guided lessons, and privacy-at-home learning into one place.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="getting-started">
+      <div class="section-heading">
+        <h2>Getting started</h2>
+        <p>Use these exact commands after you create the GitHub repository.</p>
+      </div>
+      <div class="grid two-up">
+        <article class="card">
+          <h3>Run the tool locally</h3>
+          <pre><code>chmod +x scripts/log_capture.sh
+./scripts/log_capture.sh</code></pre>
+        </article>
+        <article class="card">
+          <h3>Push to GitHub</h3>
+          <pre><code>git init
+git add .
+git commit -m "Initial commit: BCBC log capture starter"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+git push -u origin main</code></pre>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2>Included project files</h2>
+          <p>You can keep this simple and expand it as you go.</p>
+        </div>
+        <div class="card code-card">
+          <pre><code>bcbc-log-capture-starter/
+├── .gitignore
+├── README.md
+├── index.html
+├── style.css
+├── usb-menu-preview.html
+├── docs/
+│   ├── github_pages_setup.md
+│   └── next_tools.md
+├── output/
+└── scripts/
+    └── log_capture.sh</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="section-heading">
+        <h2>Project direction</h2>
+        <p>Built for real use, not just theory.</p>
+      </div>
+      <div class="grid three-up">
+        <article class="card">
+          <h3>Learn</h3>
+          <p>Help beginners understand what the tools are doing and why the results matter.</p>
+        </article>
+        <article class="card">
+          <h3>Diagnose</h3>
+          <p>Give users a fast, repeatable way to gather useful information before troubleshooting.</p>
+        </article>
+        <article class="card">
+          <h3>Grow</h3>
+          <p>Expand from one script into a complete technician toolkit and privacy-at-home learning system.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p><strong>BCBC Technician Tools and Learning System</strong></p>
+      <p>First GitHub project starter • GitHub Pages ready • USB SSD interface foundation</p>
+    </div>
+  </footer>
+</body>
+</html>
