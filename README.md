@@ -1,3 +1,6 @@
+
+
+<img width="1536" height="1024" alt="bcbc-tt-and-ls-header-logos" src="https://github.com/user-attachments/assets/17b0016d-fad2-44e3-a5ee-e612ea4159fe" />
 # BCBC Technician Tools and Learning System
 
 A beginner-friendly starter repository for technician tools, log capture, guided troubleshooting, and a simple GitHub Pages landing page.
